@@ -23,7 +23,7 @@
 .button:hover{
    background-color: gray;
 }
-#button:hover{
+.button1:hover{
    background-color: gray;
 }
 
@@ -42,7 +42,7 @@
    background-color: rgb(16, 17, 16);
    
 }
-#button {
+.button1 {
    background-color: rgb(16, 17, 16);
    grid-row:4/6;
    grid-column: 4/-1;
