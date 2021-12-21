@@ -5,6 +5,7 @@ var operand2=0;
 var button= document.getElementsByClassName("button");
 var display=document.getElementById("display");
 display.innerHTML="";
+// button.push(document.getElementsByClassName("button1"));
 
 function evaluate(operand1, operator, operand2){
 
@@ -25,7 +26,7 @@ function evaluate(operand1, operator, operand2){
 }
 
 for(var i=0; i<button.length;i++){
-    
+    console.log(button[i]);
     button[i].addEventListener("click", fun);
 }
 function fun(){
